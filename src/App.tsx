@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './composants/useEffect/HelloWorld';
-import CountUseEffect from './composants/countUseEffect/CountUseEffect';
+import Routeur from './routes/Routeur';
 // import MonComposant from './composants/monComposant/MonComposant';
 // import Welcome from './welcome/Welcome';
 // import MonComposant from './composants/props/MonComposant';
@@ -25,6 +23,7 @@ function App() {
 
       {/* <HelloWorld/> */}
       {/* <CountUseEffect/> */}
+      <Routeur/>
     </div>
   );
 }
